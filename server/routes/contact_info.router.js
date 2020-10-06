@@ -7,4 +7,6 @@ contact_router.route("/create").post(ctrl.create);
 contact_router.route("/update").put(ctrl.update);
 contact_router.route("/delete").delete(ctrl.delete);
 
+console.log("routes ------------------");
+
 module.exports = contact_router;
